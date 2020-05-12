@@ -3,6 +3,8 @@
 Our mission is to support professional musicians who are unable to perform publicly in these difficult times by connecting them with passionate students desiring to learn and share their love of music. Our program is meant to be in addition to supporting your local teachers.
 
 [View Site](https://musicwithamaster.com/)
+<br />
+
 [Sign Up](https://docs.google.com/forms/d/e/1FAIpQLSeG-wr2tON3pve3qzVxsTNbrPMY160Fbavj7O2_4N1xgUPW7w/viewform?usp=sf_link)
 
 ## Docs
@@ -17,14 +19,14 @@ Run `systemctl enable --now maldet` or `systemctl disable --now maldet` to contr
 
 You can use Cockpit, a control panel, to manage your instance and software.
 
-````https://104.156.255.167:9080
+```https://104.156.255.167:9080
 User: root
 Pass: (server root password)
 ```
 
 If you lose root password:
 
-```
+````
 Using bash as init
 Append the init=/bin/bash kernel parameter to your boot loader's boot entry.
 Your root file system is mounted as read-only now, so remount it as read/write: mount -n -o remount,rw /.
